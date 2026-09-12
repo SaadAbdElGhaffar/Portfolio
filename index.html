@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Saad Abd El-Ghaffar | Computer Vision & Machine Learning Engineer" />
+  <title>Saad Abd El-Ghaffar | CV & ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <a class="logo" href="#top" aria-label="Home">SA</a>
+      <span class="loc">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 21s7-5.2 7-11a7 7 0 1 0-14 0c0 5.8 7 11 7 11z" stroke="currentColor" stroke-width="1.7"/>
+          <circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.7"/>
+        </svg>
+        Mansoura, EG
+      </span>
+    </div>
+
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav">
+      <a href="#about">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="3.2" stroke="currentColor" stroke-width="1.7"/><path d="M5.5 19c1.4-3.2 3.7-4.8 6.5-4.8S17.1 15.8 18.5 19" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        About
+      </a>
+      <a href="#experience">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="7" width="17" height="12.5" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 7V5.8A1.8 1.8 0 0 1 9.8 4h4.4A1.8 1.8 0 0 1 16 5.8V7" stroke="currentColor" stroke-width="1.7"/></svg>
+        Experience
+      </a>
+      <a href="#research">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 4h8v14l-4-2.2L8 18V4z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        Research
+      </a>
+      <a href="#projects">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 8.5 12 4l8 4.5v7L12 20l-8-4.5v-7z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        Projects
+      </a>
+      <a href="#certifications">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="9" r="5" stroke="currentColor" stroke-width="1.7"/><path d="M9.2 13.4 8 20l4-2.2L16 20l-1.2-6.6" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        Certifications
+      </a>
+      <a href="#education">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 10.5 12 5l9 5.5-9 5.5L3 10.5z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M6.5 12.5v5.2c0 .4 2.4 2.3 5.5 2.3s5.5-1.9 5.5-2.3v-5.2" stroke="currentColor" stroke-width="1.7"/></svg>
+        Education
+      </a>
+      <a href="#contact">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="m4.5 7.5 7.5 6 7.5-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Contact
+      </a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="hero-tags">
+          <span>Computer Vision</span>
+          <span>Real-Time Detection / Medical Imaging</span>
+        </div>
+
+        <h1>Saad Abd El-Ghaffar</h1>
+        <p class="role">Computer Vision &amp; Machine Learning Engineer</p>
+        <p class="affiliation">
+          B.Sc. Computer Engineering · Mansoura University
+          <span class="sep">|</span>
+          Software Engineer @
+          <a href="https://www.linkedin.com/in/saadabdelghaffar/" target="_blank" rel="noopener">TJM Labs</a>
+        </p>
+
+        <p class="lead">
+          I build and deploy computer vision and ML systems — real-time object detection, medical image
+          analysis, and visual pipelines — mainly with Python, PyTorch, and OpenCV.
+        </p>
+        <p class="lead">
+          At TJM Labs I work on AI agents and APIs that automate pharmacy workflows such as prescription
+          intake and fax processing. Outside work I take projects from training to deployed services with
+          FastAPI, Flask, and Docker.
+        </p>
+
+        <div class="cta-bar hero-actions">
+          <a class="btn" href="https://github.com/SaadAbdElGhaffar" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.2-3.4-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5a3.9 3.9 0 0 1 1-2.7c-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5 0c2-.1 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.8v2.6c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>
+            GitHub
+          </a>
+          <a class="btn" href="https://www.linkedin.com/in/saadabdelghaffar/" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.3 8.8H3.5V20h2.8V8.8zM4.9 4A1.6 1.6 0 1 0 4.9 7.2 1.6 1.6 0 0 0 4.9 4zM20.5 20h-2.8v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V20H11V8.8h2.7v1.5h.1c.4-.7 1.3-1.8 3.1-1.8 3.3 0 3.9 2.2 3.9 5V20z"/></svg>
+            LinkedIn
+          </a>
+          <a class="btn" href="mailto:saad.abdelghaffar.ai@gmail.com">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="m4.5 7.5 7.5 6 7.5-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            Email
+          </a>
+          <a class="btn" href="cv.pdf" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 3.5h7l4 4V20a1.5 1.5 0 0 1-1.5 1.5h-9.5A1.5 1.5 0 0 1 5.5 20V5A1.5 1.5 0 0 1 7 3.5z" stroke="currentColor" stroke-width="1.7"/><path d="M14 3.5V8h4.5" stroke="currentColor" stroke-width="1.7"/></svg>
+            View CV
+          </a>
+          <a class="btn" href="cv.pdf" download>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="m8 10 4 4 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 18h14" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            Download CV
+          </a>
+        </div>
+
+        <div class="meta-grid">
+          <article class="meta-card">
+            <div class="meta-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M12 3v2.2M12 18.8V21M3 12h2.2M18.8 12H21M5.6 5.6l1.6 1.6M16.8 16.8l1.6 1.6M18.4 5.6l-1.6 1.6M7.2 16.8l-1.6 1.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Focus</h3>
+            <p>Real-time detection, medical imaging, visual analysis, and production ML services.</p>
+          </article>
+          <article class="meta-card">
+            <div class="meta-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3.5 4.5 7.5v9L12 20.5l7.5-4v-9L12 3.5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 12 4.8 8.1M12 12v8.2M12 12l7.2-3.9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Main Stack</h3>
+            <p>Python, PyTorch, OpenCV, YOLO, FastAPI / Flask, Docker, and MySQL.</p>
+          </article>
+          <article class="meta-card">
+            <div class="meta-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M7 4h10v4.5c0 2.2-1.8 4-4 4h-2c-2.2 0-4-1.8-4-4V4z" stroke="currentColor" stroke-width="1.6"/><path d="M9 20h6M12 12.5V20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Research Interests</h3>
+            <p>Detection and tracking, medical imaging, OCR / document vision, and applied deep learning.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="photo.jpg" alt="Portrait of Saad Abd El-Ghaffar" width="720" height="900" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="block">
+      <h2>About</h2>
+      <div class="glass-panel about-panel">
+        <p>
+          I graduated with a B.Sc. in Computer Engineering from Mansoura University
+          (<strong>94.08%</strong>, ranked <strong>6th of 255</strong>, Excellent with Honors).
+          My strongest work is in detection, medical imaging, and deploying models behind APIs.
+        </p>
+        <p>
+          At TJM Labs I build AI agents and backend services for US pharmacy systems — prescription
+          intake, fax processing, and demographic updates. My graduation project,
+          <a href="https://matheditor.me" target="_blank" rel="noopener"><strong>MathEditor</strong></a>,
+          included OCR for math expressions to LaTeX and LLM-assisted document tools.
+          I am preparing for a research Master’s in <strong>2027</strong>.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="block">
+      <h2>Experience</h2>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="job-card">
+            <header class="job-head">
+              <div class="job-title-wrap">
+                <h3>Software Engineer</h3>
+                <span class="date-pill">Nov 2025 – Present</span>
+              </div>
+              <a class="company" href="https://www.linkedin.com/in/saadabdelghaffar/" target="_blank" rel="noopener">TJM Labs</a>
+            </header>
+            <p class="job-sum">
+              Building AI agents and backend APIs for US pharmacy workflows — prescription intake,
+              fax processing, and demographic updates — wired into existing production systems.
+            </p>
+            <div class="job-details">
+              <div class="detail-col">
+                <h4>AI Agents &amp; Automation</h4>
+                <ul>
+                  <li>Automating pharmacy workflows that used to be mostly manual.</li>
+                  <li>Working with pharmacists and engineers on what actually needs to ship.</li>
+                </ul>
+              </div>
+              <div class="detail-col">
+                <h4>Backend Integration</h4>
+                <ul>
+                  <li>Developing services and APIs that plug AI into existing pharmacy software.</li>
+                  <li>Keeping deployments reliable enough for day-to-day operations.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="block">
+      <h2>Research</h2>
+      <p class="block-intro">
+        Mentored research training and collaborative paper work in computer vision and AI for healthcare.
+      </p>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="job-card">
+            <header class="job-head">
+              <div class="job-title-wrap">
+                <h3>Research Training Mentorship</h3>
+                <span class="date-pill">5 months</span>
+              </div>
+              <p class="company muted">
+                Under
+                <a href="https://scholar.google.com/citations?user=yngA4KAAAAAJ&amp;hl=en" target="_blank" rel="noopener">Dr. Mohamed Sameer Abdallah, PhD, PMP®</a>
+                · Assistant Professor, Gachon University, South Korea
+              </p>
+            </header>
+            <p class="job-sum">
+              Completed a 5-month research training period focused on how to read papers carefully, assist in
+              research discussions, and practice the process of writing research papers in computer vision.
+            </p>
+            <div class="job-details">
+              <div class="detail-col full">
+                <h4>What I Worked On</h4>
+                <ul>
+                  <li>
+                    Trained systematically on research-paper reading: problem setup, method, experiments, and how
+                    claims are supported by evidence.
+                  </li>
+                  <li>
+                    Read and studied <strong>~30 research papers</strong> in the
+                    <strong>sign language recognition</strong> domain (vision-based gesture/sign understanding,
+                    related deep learning approaches, and evaluation practices).
+                  </li>
+                  <li>
+                    Assisted with research-oriented tasks and discussions under mentorship, including summarizing
+                    papers and connecting methods across the literature.
+                  </li>
+                  <li>
+                    Practiced academic writing fundamentals: structuring related work, clarifying contributions,
+                    and organizing experiment narratives.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-links">
+              <a href="https://scholar.google.com/citations?user=yngA4KAAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
+              <a href="https://www.linkedin.com/in/mohamed-sameer-abdallah-phd-pmp%C2%AE-91424740" target="_blank" rel="noopener">LinkedIn ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="job-card">
+            <header class="job-head">
+              <div class="job-title-wrap">
+                <h3>Collaborative Research Paper — Under Review</h3>
+                <span class="date-pill">Under review</span>
+              </div>
+              <p class="company muted">
+                With
+                <a href="https://scholar.google.com/citations?user=hgevkxMAAAAJ&amp;hl=en" target="_blank" rel="noopener">Dr. Tahir Abbas Khan (SMIEEE)</a>
+                · Assistant Professor, Muhammad Nawaz Sharif University of Engineering &amp; Technology (MNSUET), Multan
+              </p>
+            </header>
+            <p class="job-sum">
+              <strong>Title:</strong>
+              <em>A Hierarchical Agentic Framework for Cardiovascular Triage: Design, Evaluation, and the Discovery of a Confidence–Severity Escalation Gap</em>
+            </p>
+            <p class="job-sum">
+              Collaborative manuscript on an agentic, multi-stage cardiovascular triage pipeline
+              (tabular risk screening → echocardiographic EF confirmation → MRI escalation), with
+              confidence-based routing, ablations, and explainability/audit analysis. Status:
+              <strong>under review</strong>.
+            </p>
+            <div class="job-details">
+              <div class="detail-col full">
+                <h4>My Involvement</h4>
+                <ul>
+                  <li>
+                    Contributed to the experimental pipeline and evaluation stages (screening, confirmation,
+                    escalation, orchestration, ablations, and explainability workflows).
+                  </li>
+                  <li>
+                    Supported manuscript development around methods, results, figures, and verification of
+                    reported claims against experiment outputs.
+                  </li>
+                  <li>
+                    Worked in an AI-for-healthcare research setting spanning medical imaging, tabular risk models,
+                    and agentic clinical decision pathways.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-links">
+              <a href="https://scholar.google.com/citations?user=hgevkxMAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
+              <a href="https://www.linkedin.com/in/dr-tahir-abbas-894968184" target="_blank" rel="noopener">LinkedIn ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="block">
+      <h2>Projects</h2>
+      <p class="block-intro">
+        Selected CV and ML projects with training, evaluation, and deployable demos.
+      </p>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <header>
+            <h3>Tennis Analysis System</h3>
+            <p class="project-meta">Computer Vision · Video Analytics</p>
+          </header>
+          <p>
+            Advanced match analysis using YOLO, deep learning, and real-time video analytics:
+            player detection, ball tracking, court keypoints, and annotated performance statistics.
+          </p>
+          <div class="tags">
+            <span>YOLOv8</span><span>OpenCV</span><span>Tracking</span><span>Python</span>
+          </div>
+          <a class="more" href="https://github.com/SaadAbdElGhaffar/tennis-analysis-system" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <header>
+            <h3>Brain Tumor Classification</h3>
+            <p class="project-meta">Medical Imaging · Deployment</p>
+          </header>
+          <p>
+            Fine-tuned ResNet18 for MRI classification with FastAPI backend, Streamlit frontend,
+            and Docker packaging. Reported 99.7% accuracy and earned a Kaggle gold medal.
+          </p>
+          <div class="tags">
+            <span>PyTorch</span><span>ResNet18</span><span>FastAPI</span><span>Docker</span>
+          </div>
+          <a class="more" href="https://github.com/SaadAbdElGhaffar/brain-tumor-classification-pytorch" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <header>
+            <h3>License Plate Recognition</h3>
+            <p class="project-meta">Detection · OCR</p>
+          </header>
+          <p>
+            AI-powered plate detection with YOLOv11 and PaddleOCR, including a Flask interface
+            and MySQL persistence for reads from video streams.
+          </p>
+          <div class="tags">
+            <span>YOLOv11</span><span>PaddleOCR</span><span>Flask</span><span>MySQL</span>
+          </div>
+          <a class="more" href="https://github.com/SaadAbdElGhaffar/car-plate-recognition" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <header>
+            <h3>Human Activity Recognition</h3>
+            <p class="project-meta">Pose Estimation · Realtime</p>
+          </header>
+          <p>
+            Real-time activity recognition that classifies sitting and standing poses with
+            YOLOv8 pose estimation and OpenCV video processing.
+          </p>
+          <div class="tags">
+            <span>YOLOv8 Pose</span><span>OpenCV</span><span>Realtime</span><span>Python</span>
+          </div>
+          <a class="more" href="https://github.com/SaadAbdElGhaffar/human-activity-recognition" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <header>
+            <h3>Iranian Snack Detection</h3>
+            <p class="project-meta">Retail Vision · YOLOv11</p>
+          </header>
+          <p>
+            Smart retail detection pipeline with YOLOv11 for snack recognition, plus real-time
+            price, expiry, and calorie analysis for automation workflows.
+          </p>
+          <div class="tags">
+            <span>YOLOv11</span><span>Object Detection</span><span>Retail AI</span><span>Python</span>
+          </div>
+          <a class="more" href="https://github.com/SaadAbdElGhaffar/ranian-snack-detection-yolo11" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <header>
+            <h3>Cats vs Dogs Classifier</h3>
+            <p class="project-meta">Transfer Learning · Deployment</p>
+          </header>
+          <p>
+            TensorFlow / VGG16 image classifier at 98.7% accuracy, with FastAPI, Streamlit,
+            Docker packaging, and a Kaggle gold-medal notebook.
+          </p>
+          <div class="tags">
+            <span>TensorFlow</span><span>VGG16</span><span>FastAPI</span><span>Docker</span>
+          </div>
+          <a class="more" href="https://github.com/SaadAbdElGhaffar/cats-dogs-classifier-tensorflow" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <header>
+            <h3>Anime Face GAN Generator</h3>
+            <p class="project-meta">Generative Models</p>
+          </header>
+          <p>
+            DCGAN and CGAN models for anime face generation, with an interactive Streamlit app,
+            controllable attributes, batch generation, and training notebooks.
+          </p>
+          <div class="tags">
+            <span>DCGAN</span><span>CGAN</span><span>Streamlit</span><span>PyTorch</span>
+          </div>
+          <a class="more" href="https://github.com/SaadAbdElGhaffar/anime-face-gan-generator" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <header>
+            <h3>Hotel Cancellation Predictor</h3>
+            <p class="project-meta">Tabular ML · Deployment</p>
+          </header>
+          <p>
+            Reservation cancellation predictor at 97.2% accuracy, shipped with FastAPI,
+            Streamlit, and Docker for revenue-oriented decision support.
+          </p>
+          <div class="tags">
+            <span>Scikit-learn</span><span>FastAPI</span><span>Streamlit</span><span>Docker</span>
+          </div>
+          <a class="more" href="https://github.com/SaadAbdElGhaffar/hotel-cancellation-predictor" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <header>
+            <h3>Customer Segmentation (RFM)</h3>
+            <p class="project-meta">Clustering · Analytics</p>
+          </header>
+          <p>
+            RFM analysis and K-means segmentation with an interactive Plotly Dash dashboard
+            for turning e-commerce data into actionable customer groups.
+          </p>
+          <div class="tags">
+            <span>RFM</span><span>K-Means</span><span>Plotly Dash</span><span>Python</span>
+          </div>
+          <a class="more" href="https://github.com/SaadAbdElGhaffar/customer-segmentation-rfm-kmeans" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <header>
+            <h3>Ice Cream Sales Forecasting</h3>
+            <p class="project-meta">Time Series</p>
+          </header>
+          <p>
+            Compared ARIMA, SARIMA, XGBoost, LSTM, and GRU on monthly sales data with
+            preprocessing, feature engineering, and model performance analysis.
+          </p>
+          <div class="tags">
+            <span>ARIMA</span><span>LSTM</span><span>XGBoost</span><span>Time Series</span>
+          </div>
+          <a class="more" href="https://github.com/SaadAbdElGhaffar/time-series-ice-cream-analysis" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <header>
+            <h3>Laptop Price Predictor</h3>
+            <p class="project-meta">Ensemble ML</p>
+          </header>
+          <p>
+            End-to-end price prediction with Random Forest, XGBoost, and CatBoost ensembles,
+            feature engineering, and evaluation around ~91% R².
+          </p>
+          <div class="tags">
+            <span>XGBoost</span><span>CatBoost</span><span>Random Forest</span><span>Python</span>
+          </div>
+          <a class="more" href="https://github.com/SaadAbdElGhaffar/laptop-price-predictor" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <header>
+            <h3>Computer Vision Lab</h3>
+            <p class="project-meta">Realtime CV</p>
+          </header>
+          <p>
+            Collection of realtime vision demos: gesture recognition, facial recognition,
+            object detection, lane detection, and CNN image classification.
+          </p>
+          <div class="tags">
+            <span>OpenCV</span><span>MediaPipe</span><span>CNN</span><span>Python</span>
+          </div>
+          <a class="more" href="https://github.com/SaadAbdElGhaffar/Computer-Vision" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <header>
+            <h3>ML From Scratch</h3>
+            <p class="project-meta">Foundations</p>
+          </header>
+          <p>
+            Classical machine-learning algorithms implemented from first principles to keep
+            theory tightly connected to code.
+          </p>
+          <div class="tags">
+            <span>NumPy</span><span>Algorithms</span><span>Python</span>
+          </div>
+          <a class="more" href="https://github.com/SaadAbdElGhaffar/ML_From_Scratch" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="block">
+      <h2>Training / Certifications</h2>
+      <p class="block-intro">Formal training programs and certificates from my CV.</p>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="job-card cert-card">
+            <header class="job-head">
+              <div class="job-title-wrap">
+                <h3>WorldQuant University — Data Science Lab</h3>
+                <span class="date-pill">Dec 2022 – Aug 2023</span>
+              </div>
+              <p class="company muted">Certificate</p>
+            </header>
+            <p class="job-sum">
+              Completed 8 data science projects covering machine learning, time series analysis, and
+              statistical modeling. Built predictive models with Linear Regression, ARMA, Logistic Regression,
+              Random Forest, and GARCH, plus interactive dashboards with Python, Plotly Dash, and custom APIs.
+            </p>
+            <div class="card-links">
+              <a href="https://www.credly.com/badges/e29a719d-acfa-49c1-8bca-5282ed3b456d/linked_in_profile" target="_blank" rel="noopener">View Credential ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="job-card cert-card">
+            <header class="job-head">
+              <div class="job-title-wrap">
+                <h3>Information Technology Institute (ITI) — Computer Vision Training</h3>
+                <span class="date-pill">Jul 2024 – Sep 2024</span>
+              </div>
+              <p class="company muted">Certificate</p>
+            </header>
+            <p class="job-sum">
+              Completed 5 advanced CV projects including tampering detection, image watermarking, text
+              extraction, face swapping, and handwritten digit recognition. Used TensorFlow and PyTorch with
+              data augmentation, feature extraction, and transfer learning.
+            </p>
+            <div class="card-links">
+              <a href="https://www.linkedin.com/in/saadabdelghaffar/details/certifications/1734508583606/single-media-viewer/?profileId=ACoAADcq_gMBXPMojSZlCYH4OA8PFfKhug0uWYI" target="_blank" rel="noopener">View Credential ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="job-card cert-card">
+            <header class="job-head">
+              <div class="job-title-wrap">
+                <h3>Huawei — HCIA-AI Learning Course</h3>
+                <span class="date-pill">Sep 2024</span>
+              </div>
+              <p class="company muted">Certificate</p>
+            </header>
+            <p class="job-sum">
+              Hands-on experience with AI platforms focused on data processing, model training, and evaluation.
+              Designed AI-based solutions using neural networks and optimization techniques.
+            </p>
+            <div class="card-links">
+              <a href="https://www.linkedin.com/in/saadabdelghaffar/details/certifications/1734534441906/single-media-viewer/?profileId=ACoAADcq_gMBXPMojSZlCYH4OA8PFfKhug0uWYI" target="_blank" rel="noopener">View Credential ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="job-card cert-card">
+            <header class="job-head">
+              <div class="job-title-wrap">
+                <h3>Kaggle Competition Medals</h3>
+                <span class="date-pill">Kaggle</span>
+              </div>
+              <p class="company muted">Recognition</p>
+            </header>
+            <p class="job-sum">
+              Multiple Gold medals (Cats vs Dogs, Brain Tumor Classification, Time Series Ice Cream Sales)
+              and Silver medals (Customer Segmentation, Hotel Cancellation Predictor, Laptop Price Predictor).
+            </p>
+            <div class="card-links">
+              <a href="https://www.kaggle.com/abdocan" target="_blank" rel="noopener">View Kaggle Profile ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="block">
+      <h2>Education</h2>
+      <article class="edu-card">
+        <div class="edu-main">
+          <p class="edu-level">Bachelor's Degree</p>
+          <h3>B.Sc. in Computer Engineering</h3>
+          <p class="edu-org">Mansoura University, Egypt</p>
+        </div>
+        <div class="edu-side">
+          <span class="date-pill">Graduated</span>
+          <p class="badge">Excellent with Honors</p>
+          <p class="gpa">94.08% · Ranked 6th / 255</p>
+          <p class="gpa subtle">≈ 3.8 / 4.00 equivalent</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="contact" class="block contact">
+      <h2>Contact</h2>
+      <p class="block-intro">Reach me on LinkedIn, GitHub, or email.</p>
+      <div class="contact-actions">
+        <a class="btn" href="https://www.linkedin.com/in/saadabdelghaffar/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/SaadAbdElGhaffar" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="mailto:saad.abdelghaffar.ai@gmail.com">Email</a>
+        <a class="btn solid" href="cv.pdf" download>CV</a>
+      </div>
+      <p class="email-line">
+        <a href="mailto:saad.abdelghaffar.ai@gmail.com">saad.abdelghaffar.ai@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Saad Abd El-Ghaffar</span>
+    <span>Open to Master’s supervision · 2027</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
