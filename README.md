@@ -1,7 +1,8 @@
 # Saad Abd El-Ghaffar — Portfolio
 
-Personal site inspired by the structure of [mohamedsamir.cc](https://www.mohamedsamir.cc/):
-hero + photo, focus/stack/interests, experience, projects, education, contact.
+Live site: **https://saadabdelghaffar.github.io**
+
+Personal site inspired by the structure of [mohamedsamir.cc](https://www.mohamedsamir.cc/).
 
 ## Preview locally
 
@@ -12,15 +13,18 @@ python -m http.server 5500
 
 Open: http://localhost:5500
 
-## Deploy
+## Update the live site
 
-### GitHub Pages
-1. Create repo `SaadAbdElGhaffar.github.io`
-2. Upload `index.html`, `styles.css`, `script.js`, `photo.jpg`, `cv.pdf`
-3. Settings → Pages → branch `main` / root
+After editing files here:
 
-### Netlify Drop
-Drag the `portfolio` folder to https://app.netlify.com/drop
+```powershell
+cd D:\university\Master\portfolio
+git add .
+git commit -m "Update portfolio"
+git push
+```
 
-### Vercel
-Import the folder/repo → Framework: Other → Deploy
+## Deploy notes
+
+This repo is published with **GitHub Pages** from branch `main` / root.
+If the site does not open yet: repo → **Settings → Pages → Deploy from a branch → `main` / `/ (root)`**.
