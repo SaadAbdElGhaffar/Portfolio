@@ -240,7 +240,8 @@ img {
   margin-bottom: 1.15rem;
 }
 
-.hero-tags span {
+.hero-tags span,
+.hero-tags a {
   display: inline-flex;
   padding: 0.35rem 0.8rem;
   border-radius: 999px;
@@ -252,13 +253,27 @@ img {
   font-weight: 500;
   letter-spacing: 0.07em;
   text-transform: uppercase;
+  text-decoration: none;
   transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
 }
 
-.hero-tags span:hover {
+.hero-tags span:hover,
+.hero-tags a:hover {
   border-color: rgba(94, 234, 212, 0.35);
   color: var(--accent);
   background: var(--accent-soft);
+}
+
+.hero-tags .kaggle-tag {
+  border-color: rgba(32, 190, 255, 0.45);
+  background: rgba(32, 190, 255, 0.12);
+  color: #7ad7ff;
+}
+
+.hero-tags .kaggle-tag:hover {
+  border-color: rgba(32, 190, 255, 0.7);
+  color: #b8ebff;
+  background: rgba(32, 190, 255, 0.22);
 }
 
 .hero h1 {
