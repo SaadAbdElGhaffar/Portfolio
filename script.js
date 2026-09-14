@@ -18,6 +18,11 @@ if (toggle && nav) {
 }
 
 const projectVideos = document.querySelectorAll(".project-media video");
+projectVideos.forEach((video) => {
+  video.muted = true;
+  video.playsInline = true;
+  video.play().catch(() => {});
+});
 if (projectVideos.length && "IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
     (entries) => {
@@ -30,7 +35,7 @@ if (projectVideos.length && "IntersectionObserver" in window) {
         }
       });
     },
-    { threshold: 0.45 }
+    { threshold: 0.2 }
   );
   projectVideos.forEach((video) => observer.observe(video));
 }
