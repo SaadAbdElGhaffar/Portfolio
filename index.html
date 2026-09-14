@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=2" />
+  <link rel="stylesheet" href="styles.css?v=3" />
 </head>
 <body>
   <div class="page-glow" aria-hidden="true"></div>
@@ -324,198 +324,268 @@
 
       <div class="project-grid">
         <article class="project-card">
-          <header>
-            <h3>Tennis Analysis System</h3>
-            <p class="project-meta">Computer Vision · Video Analytics</p>
-          </header>
-          <p>
-            Advanced match analysis using YOLO, deep learning, and real-time video analytics:
-            player detection, ball tracking, court keypoints, and annotated performance statistics.
-          </p>
-          <div class="tags">
-            <span>YOLOv8</span><span>OpenCV</span><span>Tracking</span><span>Python</span>
+          <figure class="project-media">
+            <img src="https://media.githubusercontent.com/media/SaadAbdElGhaffar/tennis-analysis-system/main/output_videos/output_video.gif" alt="Tennis analysis output with player tracking, ball ID, court keypoints, and match stats" loading="lazy">
+          </figure>
+          <div class="project-body">
+            <header>
+              <h3>Tennis Analysis System</h3>
+              <p class="project-meta">Computer Vision · Video Analytics</p>
+            </header>
+            <p>
+              Advanced match analysis using YOLO, deep learning, and real-time video analytics:
+              player detection, ball tracking, court keypoints, and annotated performance statistics.
+            </p>
+            <div class="tags">
+              <span>YOLOv8</span><span>OpenCV</span><span>Tracking</span><span>Python</span>
+            </div>
+            <a class="more" href="https://github.com/SaadAbdElGhaffar/tennis-analysis-system" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <a class="more" href="https://github.com/SaadAbdElGhaffar/tennis-analysis-system" target="_blank" rel="noopener">GitHub ↗</a>
         </article>
 
         <article class="project-card">
-          <header>
-            <h3>Brain Tumor Classification</h3>
-            <p class="project-meta">Medical Imaging · Deployment</p>
-          </header>
-          <p>
-            Fine-tuned ResNet18 for MRI classification with FastAPI backend, Streamlit frontend,
-            and Docker packaging. Reported 99.7% accuracy and earned a Kaggle gold medal.
-          </p>
-          <div class="tags">
-            <span>PyTorch</span><span>ResNet18</span><span>FastAPI</span><span>Docker</span>
+          <figure class="project-media">
+            <video muted loop playsinline preload="none" poster="https://raw.githubusercontent.com/SaadAbdElGhaffar/brain-tumor-classification-pytorch/main/images/3.jpg">
+              <source src="https://media.githubusercontent.com/media/SaadAbdElGhaffar/brain-tumor-classification-pytorch/main/videos/video.mp4" type="video/mp4">
+            </video>
+          </figure>
+          <div class="project-body">
+            <header>
+              <h3>Brain Tumor Classification</h3>
+              <p class="project-meta">Medical Imaging · Deployment</p>
+            </header>
+            <p>
+              Fine-tuned ResNet18 for MRI classification with FastAPI backend, Streamlit frontend,
+              and Docker packaging. Reported 99.7% accuracy and earned a Kaggle gold medal.
+            </p>
+            <div class="tags">
+              <span>PyTorch</span><span>ResNet18</span><span>FastAPI</span><span>Docker</span>
+            </div>
+            <a class="more" href="https://github.com/SaadAbdElGhaffar/brain-tumor-classification-pytorch" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <a class="more" href="https://github.com/SaadAbdElGhaffar/brain-tumor-classification-pytorch" target="_blank" rel="noopener">GitHub ↗</a>
         </article>
 
         <article class="project-card">
-          <header>
-            <h3>License Plate Recognition</h3>
-            <p class="project-meta">Detection · OCR</p>
-          </header>
-          <p>
-            AI-powered plate detection with YOLOv11 and PaddleOCR, including a Flask interface
-            and MySQL persistence for reads from video streams.
-          </p>
-          <div class="tags">
-            <span>YOLOv11</span><span>PaddleOCR</span><span>Flask</span><span>MySQL</span>
+          <figure class="project-media">
+            <img src="https://media.githubusercontent.com/media/SaadAbdElGhaffar/car-plate-recognition/main/video/video.gif" alt="License plate detection and OCR on video" loading="lazy">
+          </figure>
+          <div class="project-body">
+            <header>
+              <h3>License Plate Recognition</h3>
+              <p class="project-meta">Detection · OCR</p>
+            </header>
+            <p>
+              AI-powered plate detection with YOLOv11 and PaddleOCR, including a Flask interface
+              and MySQL persistence for reads from video streams.
+            </p>
+            <div class="tags">
+              <span>YOLOv11</span><span>PaddleOCR</span><span>Flask</span><span>MySQL</span>
+            </div>
+            <a class="more" href="https://github.com/SaadAbdElGhaffar/car-plate-recognition" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <a class="more" href="https://github.com/SaadAbdElGhaffar/car-plate-recognition" target="_blank" rel="noopener">GitHub ↗</a>
         </article>
 
         <article class="project-card">
-          <header>
-            <h3>Human Activity Recognition</h3>
-            <p class="project-meta">Pose Estimation · Realtime</p>
-          </header>
-          <p>
-            Real-time activity recognition that classifies sitting and standing poses with
-            YOLOv8 pose estimation and OpenCV video processing.
-          </p>
-          <div class="tags">
-            <span>YOLOv8 Pose</span><span>OpenCV</span><span>Realtime</span><span>Python</span>
+          <figure class="project-media">
+            <video muted loop playsinline preload="none">
+              <source src="https://media.githubusercontent.com/media/SaadAbdElGhaffar/human-activity-recognition/main/output/output.mp4" type="video/mp4">
+            </video>
+          </figure>
+          <div class="project-body">
+            <header>
+              <h3>Human Activity Recognition</h3>
+              <p class="project-meta">Pose Estimation · Realtime</p>
+            </header>
+            <p>
+              Real-time activity recognition that classifies sitting and standing poses with
+              YOLOv8 pose estimation and OpenCV video processing.
+            </p>
+            <div class="tags">
+              <span>YOLOv8 Pose</span><span>OpenCV</span><span>Realtime</span><span>Python</span>
+            </div>
+            <a class="more" href="https://github.com/SaadAbdElGhaffar/human-activity-recognition" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <a class="more" href="https://github.com/SaadAbdElGhaffar/human-activity-recognition" target="_blank" rel="noopener">GitHub ↗</a>
         </article>
 
         <article class="project-card">
-          <header>
-            <h3>Iranian Snack Detection</h3>
-            <p class="project-meta">Retail Vision · YOLOv11</p>
-          </header>
-          <p>
-            Smart retail detection pipeline with YOLOv11 for snack recognition, plus real-time
-            price, expiry, and calorie analysis for automation workflows.
-          </p>
-          <div class="tags">
-            <span>YOLOv11</span><span>Object Detection</span><span>Retail AI</span><span>Python</span>
+          <figure class="project-media">
+            <img src="https://media.githubusercontent.com/media/SaadAbdElGhaffar/ranian-snack-detection-yolo11/main/outputs/iranian_snack_detection_annotated_video.gif" alt="Iranian snack detection with price, expiry, and calorie overlays" loading="lazy">
+          </figure>
+          <div class="project-body">
+            <header>
+              <h3>Iranian Snack Detection</h3>
+              <p class="project-meta">Retail Vision · YOLOv11</p>
+            </header>
+            <p>
+              Smart retail detection pipeline with YOLOv11 for snack recognition, plus real-time
+              price, expiry, and calorie analysis for automation workflows.
+            </p>
+            <div class="tags">
+              <span>YOLOv11</span><span>Object Detection</span><span>Retail AI</span><span>Python</span>
+            </div>
+            <a class="more" href="https://github.com/SaadAbdElGhaffar/ranian-snack-detection-yolo11" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <a class="more" href="https://github.com/SaadAbdElGhaffar/ranian-snack-detection-yolo11" target="_blank" rel="noopener">GitHub ↗</a>
         </article>
 
         <article class="project-card">
-          <header>
-            <h3>Cats vs Dogs Classifier</h3>
-            <p class="project-meta">Transfer Learning · Deployment</p>
-          </header>
-          <p>
-            TensorFlow / VGG16 image classifier at 98.7% accuracy, with FastAPI, Streamlit,
-            Docker packaging, and a Kaggle gold-medal notebook.
-          </p>
-          <div class="tags">
-            <span>TensorFlow</span><span>VGG16</span><span>FastAPI</span><span>Docker</span>
+          <figure class="project-media">
+            <img src="https://media.githubusercontent.com/media/SaadAbdElGhaffar/cats-dogs-classifier-tensorflow/main/videos/video.gif" alt="Cats vs dogs classifier demo" loading="lazy">
+          </figure>
+          <div class="project-body">
+            <header>
+              <h3>Cats vs Dogs Classifier</h3>
+              <p class="project-meta">Transfer Learning · Deployment</p>
+            </header>
+            <p>
+              TensorFlow / VGG16 image classifier at 98.7% accuracy, with FastAPI, Streamlit,
+              Docker packaging, and a Kaggle gold-medal notebook.
+            </p>
+            <div class="tags">
+              <span>TensorFlow</span><span>VGG16</span><span>FastAPI</span><span>Docker</span>
+            </div>
+            <a class="more" href="https://github.com/SaadAbdElGhaffar/cats-dogs-classifier-tensorflow" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <a class="more" href="https://github.com/SaadAbdElGhaffar/cats-dogs-classifier-tensorflow" target="_blank" rel="noopener">GitHub ↗</a>
         </article>
 
         <article class="project-card">
-          <header>
-            <h3>Anime Face GAN Generator</h3>
-            <p class="project-meta">Generative Models</p>
-          </header>
-          <p>
-            DCGAN and CGAN models for anime face generation, with an interactive Streamlit app,
-            controllable attributes, batch generation, and training notebooks.
-          </p>
-          <div class="tags">
-            <span>DCGAN</span><span>CGAN</span><span>Streamlit</span><span>PyTorch</span>
+          <figure class="project-media">
+            <img src="https://raw.githubusercontent.com/SaadAbdElGhaffar/anime-face-gan-generator/main/images/dcgan.jpg" alt="DCGAN anime face generator interface" loading="lazy">
+          </figure>
+          <div class="project-body">
+            <header>
+              <h3>Anime Face GAN Generator</h3>
+              <p class="project-meta">Generative Models</p>
+            </header>
+            <p>
+              DCGAN and CGAN models for anime face generation, with an interactive Streamlit app,
+              controllable attributes, batch generation, and training notebooks.
+            </p>
+            <div class="tags">
+              <span>DCGAN</span><span>CGAN</span><span>Streamlit</span><span>PyTorch</span>
+            </div>
+            <a class="more" href="https://github.com/SaadAbdElGhaffar/anime-face-gan-generator" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <a class="more" href="https://github.com/SaadAbdElGhaffar/anime-face-gan-generator" target="_blank" rel="noopener">GitHub ↗</a>
         </article>
 
         <article class="project-card">
-          <header>
-            <h3>Hotel Cancellation Predictor</h3>
-            <p class="project-meta">Tabular ML · Deployment</p>
-          </header>
-          <p>
-            Reservation cancellation predictor at 97.2% accuracy, shipped with FastAPI,
-            Streamlit, and Docker for revenue-oriented decision support.
-          </p>
-          <div class="tags">
-            <span>Scikit-learn</span><span>FastAPI</span><span>Streamlit</span><span>Docker</span>
+          <figure class="project-media">
+            <video muted loop playsinline preload="none" poster="https://raw.githubusercontent.com/SaadAbdElGhaffar/hotel-cancellation-predictor/main/video/image1.jpg">
+              <source src="https://media.githubusercontent.com/media/SaadAbdElGhaffar/hotel-cancellation-predictor/main/video/video.mp4" type="video/mp4">
+            </video>
+          </figure>
+          <div class="project-body">
+            <header>
+              <h3>Hotel Cancellation Predictor</h3>
+              <p class="project-meta">Tabular ML · Deployment</p>
+            </header>
+            <p>
+              Reservation cancellation predictor at 97.2% accuracy, shipped with FastAPI,
+              Streamlit, and Docker for revenue-oriented decision support.
+            </p>
+            <div class="tags">
+              <span>Scikit-learn</span><span>FastAPI</span><span>Streamlit</span><span>Docker</span>
+            </div>
+            <a class="more" href="https://github.com/SaadAbdElGhaffar/hotel-cancellation-predictor" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <a class="more" href="https://github.com/SaadAbdElGhaffar/hotel-cancellation-predictor" target="_blank" rel="noopener">GitHub ↗</a>
         </article>
 
         <article class="project-card">
-          <header>
-            <h3>Customer Segmentation (RFM)</h3>
-            <p class="project-meta">Clustering · Analytics</p>
-          </header>
-          <p>
-            RFM analysis and K-means segmentation with an interactive Plotly Dash dashboard
-            for turning e-commerce data into actionable customer groups.
-          </p>
-          <div class="tags">
-            <span>RFM</span><span>K-Means</span><span>Plotly Dash</span><span>Python</span>
+          <figure class="project-media">
+            <img src="https://raw.githubusercontent.com/SaadAbdElGhaffar/customer-segmentation-rfm-kmeans/main/images/image1.jpg" alt="Customer segmentation dashboard" loading="lazy">
+          </figure>
+          <div class="project-body">
+            <header>
+              <h3>Customer Segmentation (RFM)</h3>
+              <p class="project-meta">Clustering · Analytics</p>
+            </header>
+            <p>
+              RFM analysis and K-means segmentation with an interactive Plotly Dash dashboard
+              for turning e-commerce data into actionable customer groups.
+            </p>
+            <div class="tags">
+              <span>RFM</span><span>K-Means</span><span>Plotly Dash</span><span>Python</span>
+            </div>
+            <a class="more" href="https://github.com/SaadAbdElGhaffar/customer-segmentation-rfm-kmeans" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <a class="more" href="https://github.com/SaadAbdElGhaffar/customer-segmentation-rfm-kmeans" target="_blank" rel="noopener">GitHub ↗</a>
         </article>
 
         <article class="project-card">
-          <header>
-            <h3>Ice Cream Sales Forecasting</h3>
-            <p class="project-meta">Time Series</p>
-          </header>
-          <p>
-            Compared ARIMA, SARIMA, XGBoost, LSTM, and GRU on monthly sales data with
-            preprocessing, feature engineering, and model performance analysis.
-          </p>
-          <div class="tags">
-            <span>ARIMA</span><span>LSTM</span><span>XGBoost</span><span>Time Series</span>
+          <figure class="project-media">
+            <img src="https://raw.githubusercontent.com/SaadAbdElGhaffar/time-series-ice-cream-analysis/main/images/xgboost.jpg" alt="Ice cream sales forecast actual vs predicted" loading="lazy">
+          </figure>
+          <div class="project-body">
+            <header>
+              <h3>Ice Cream Sales Forecasting</h3>
+              <p class="project-meta">Time Series</p>
+            </header>
+            <p>
+              Compared ARIMA, SARIMA, XGBoost, LSTM, and GRU on monthly sales data with
+              preprocessing, feature engineering, and model performance analysis.
+            </p>
+            <div class="tags">
+              <span>ARIMA</span><span>LSTM</span><span>XGBoost</span><span>Time Series</span>
+            </div>
+            <a class="more" href="https://github.com/SaadAbdElGhaffar/time-series-ice-cream-analysis" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <a class="more" href="https://github.com/SaadAbdElGhaffar/time-series-ice-cream-analysis" target="_blank" rel="noopener">GitHub ↗</a>
         </article>
 
         <article class="project-card">
-          <header>
-            <h3>Laptop Price Predictor</h3>
-            <p class="project-meta">Ensemble ML</p>
-          </header>
-          <p>
-            End-to-end price prediction with Random Forest, XGBoost, and CatBoost ensembles,
-            feature engineering, and evaluation around ~91% R².
-          </p>
-          <div class="tags">
-            <span>XGBoost</span><span>CatBoost</span><span>Random Forest</span><span>Python</span>
+          <figure class="project-media">
+            <video muted loop playsinline preload="none" poster="https://raw.githubusercontent.com/SaadAbdElGhaffar/laptop-price-predictor/main/video/image1.jpg">
+              <source src="https://media.githubusercontent.com/media/SaadAbdElGhaffar/laptop-price-predictor/main/video/video.mp4" type="video/mp4">
+            </video>
+          </figure>
+          <div class="project-body">
+            <header>
+              <h3>Laptop Price Predictor</h3>
+              <p class="project-meta">Ensemble ML</p>
+            </header>
+            <p>
+              End-to-end price prediction with Random Forest, XGBoost, and CatBoost ensembles,
+              feature engineering, and evaluation around ~91% R².
+            </p>
+            <div class="tags">
+              <span>XGBoost</span><span>CatBoost</span><span>Random Forest</span><span>Python</span>
+            </div>
+            <a class="more" href="https://github.com/SaadAbdElGhaffar/laptop-price-predictor" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <a class="more" href="https://github.com/SaadAbdElGhaffar/laptop-price-predictor" target="_blank" rel="noopener">GitHub ↗</a>
         </article>
 
         <article class="project-card">
-          <header>
-            <h3>Computer Vision Lab</h3>
-            <p class="project-meta">Realtime CV</p>
-          </header>
-          <p>
-            Collection of realtime vision demos: gesture recognition, facial recognition,
-            object detection, lane detection, and CNN image classification.
-          </p>
-          <div class="tags">
-            <span>OpenCV</span><span>MediaPipe</span><span>CNN</span><span>Python</span>
+          <figure class="project-media">
+            <img src="https://raw.githubusercontent.com/SaadAbdElGhaffar/Computer-Vision/main/data/like.png" alt="Realtime gesture recognition like and dislike" loading="lazy">
+          </figure>
+          <div class="project-body">
+            <header>
+              <h3>Computer Vision Lab</h3>
+              <p class="project-meta">Realtime CV</p>
+            </header>
+            <p>
+              Collection of realtime vision demos: gesture recognition, facial recognition,
+              object detection, lane detection, and CNN image classification.
+            </p>
+            <div class="tags">
+              <span>OpenCV</span><span>MediaPipe</span><span>CNN</span><span>Python</span>
+            </div>
+            <a class="more" href="https://github.com/SaadAbdElGhaffar/Computer-Vision" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <a class="more" href="https://github.com/SaadAbdElGhaffar/Computer-Vision" target="_blank" rel="noopener">GitHub ↗</a>
         </article>
 
         <article class="project-card">
-          <header>
-            <h3>ML From Scratch</h3>
-            <p class="project-meta">Foundations</p>
-          </header>
-          <p>
-            Classical machine-learning algorithms implemented from first principles to keep
-            theory tightly connected to code.
-          </p>
-          <div class="tags">
-            <span>NumPy</span><span>Algorithms</span><span>Python</span>
+          <div class="project-body">
+            <header>
+              <h3>ML From Scratch</h3>
+              <p class="project-meta">Foundations</p>
+            </header>
+            <p>
+              Classical machine-learning algorithms implemented from first principles to keep
+              theory tightly connected to code.
+            </p>
+            <div class="tags">
+              <span>NumPy</span><span>Algorithms</span><span>Python</span>
+            </div>
+            <a class="more" href="https://github.com/SaadAbdElGhaffar/ML_From_Scratch" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <a class="more" href="https://github.com/SaadAbdElGhaffar/ML_From_Scratch" target="_blank" rel="noopener">GitHub ↗</a>
         </article>
       </div>
     </section>
