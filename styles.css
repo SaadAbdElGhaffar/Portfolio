@@ -843,9 +843,13 @@ a.hero-tag {
   margin-top: 1rem;
 }
 
-.project-card:last-child:nth-child(odd) {
+.project-card:nth-last-child(3):nth-child(odd) {
   grid-column: 1 / -1;
   max-width: calc(50% - 0.5rem);
+}
+
+.project-card--text:nth-last-child(2) {
+  grid-column: 1;
 }
 
 /* ——— Education ——— */
@@ -969,7 +973,9 @@ a.hero-tag {
     max-width: 420px;
   }
 
-  .project-card:last-child:nth-child(odd) {
+  .project-card:nth-last-child(3):nth-child(odd),
+  .project-card--text:nth-last-child(2) {
+    grid-column: auto;
     max-width: none;
   }
 }
