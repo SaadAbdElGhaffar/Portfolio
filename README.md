@@ -1,19 +1,17 @@
 # Saad Abd El-Ghaffar — Portfolio
 
-Personal site for my AI engineering work: computer vision, NLP, machine/deep learning, and LLMs.
-
 **Live site:** [saadabdelghaffar.github.io/Portfolio](https://saadabdelghaffar.github.io/Portfolio/)
 
 ## About
 
 Kaggle Expert · AI Engineer  
-B.Sc. Computer Engineering, Mansoura University · Software Engineer at [TJM Labs](https://www.linkedin.com/in/saadabdelghaffar/)
+B.Sc. Computer Engineering · Software Engineer at [TJM Labs](https://www.linkedin.com/in/saadabdelghaffar/)
 
-I build AI systems across computer vision, NLP, and machine/deep learning — from real-time detection and medical imaging to document understanding, LLMs, and production APIs.
+I work on computer vision, NLP, and deep learning: detection, medical imaging, LLMs, and APIs. Mostly Python and PyTorch.
 
 ## Stack
 
-Python · PyTorch · OpenCV · YOLO · Transformers / LLMs · FastAPI / Flask · Docker
+Python · PyTorch · OpenCV · YOLO · Transformers · FastAPI / Flask · Docker
 
 ## Links
 
