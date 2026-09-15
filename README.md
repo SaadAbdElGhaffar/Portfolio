@@ -9,7 +9,9 @@ Personal site for my AI engineering work: computer vision, NLP, machine/deep lea
 Kaggle Expert · AI Engineer  
 B.Sc. Computer Engineering, Mansoura University · Software Engineer at [TJM Labs](https://www.linkedin.com/in/saadabdelghaffar/)
 
-I build and deploy computer vision and ML systems — real-time object detection, medical image analysis, and visual pipelines — mainly with Python, PyTorch, and OpenCV.
+I design and deploy AI systems across computer vision, NLP, and machine learning, with a focus on real-time detection, medical imaging, and LLM-powered applications.
+
+My work bridges research and production, turning models and agents into reliable systems that operate under real-world constraints.
 
 ## Stack
 
